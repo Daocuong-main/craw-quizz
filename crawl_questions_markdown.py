@@ -59,7 +59,7 @@ def save_to_markdown(questions, filename):
                 f.write(f"{marker} ```\n  {option_text}\n  ```\n\n")
 
 def main():
-    input_file = 'urls_2.txt'
+    input_file = 'urls.txt'
     if not os.path.exists(input_file):
         print(f"Input file '{input_file}' not found.")
         return

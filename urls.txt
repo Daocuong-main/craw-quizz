@@ -17,3 +17,5 @@ https://www.sanfoundry.com/data-structure-questions-answers-coin-change-problem/
 https://www.sanfoundry.com/data-structure-questions-answers-0-1-knapsack-problem/
 https://www.sanfoundry.com/data-structure-questions-answers-longest-palindromic-subsequence/
 https://www.sanfoundry.com/branch-bound-multiple-choice-questions-answers-mcqs/
+https://www.sanfoundry.com/masters-theorem-multiple-choice-questions-answers-mcqs/
+https://www.sanfoundry.com/masters-theorem-interview-questions-answers/
