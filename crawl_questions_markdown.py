@@ -53,7 +53,7 @@ def save_to_markdown(questions, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         for i, (question, options, answer) in enumerate(questions, 1):
             question_clean = re.sub(r'^\d+\.\s*', '', question)
-            f.write(f"# Câu {i}: {question_clean}\n\n")
+            f.write(f"# {question_clean}\n\n")
             for option_letter, option_text in options:
                 marker = "*" if option_letter.lower() == answer.lower() else "-"
                 f.write(f"{marker} ```\n  {option_text}\n  ```\n\n")
