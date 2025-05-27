@@ -15,6 +15,7 @@ for filename in os.listdir(input_dir):
 
         with open(input_path, 'r', encoding='utf-8') as infile:
             content = infile.read()
+
         translated = translator.translate(text=content)
 
         with open(output_path, 'w', encoding='utf-8') as outfile:

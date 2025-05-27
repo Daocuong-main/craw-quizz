@@ -56,7 +56,7 @@ def save_to_markdown(questions, filename):
             f.write(f"# {question_clean}\n\n")
             for option_letter, option_text in options:
                 marker = "*" if option_letter.lower() == answer.lower() else "-"
-                f.write(f"{marker} ```\n  {option_text}\n  ```\n\n")
+                f.write(f"{marker} {option_text}\n\n")
 
 def main():
     input_file = 'urls.txt'
