@@ -7,7 +7,7 @@ import re
 import os
 
 def fetch_questions(url):
-    service = Service("D:\\OneDrive - HUCE\\2_Code\\Python\\Craw_data\\msedgedriver.exe")
+    service = Service("msedgedriver.exe")
     driver = webdriver.Edge(service=service)
     driver.get(url)
     time.sleep(5)
